@@ -1,9 +1,56 @@
+# Node & JavaScript dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Environment variables & secrets
 .env*
 !.env.example
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
 
 # Temporary, scratch & testing artifacts
 scratch/
 temp/
 tmp/
 *.tmp
+selfcheck_graph.json
+powershell.cmd
+
+# Litmus & evaluation trackers
+.litmus/
+.claude/
+.github/
+.litmus/
+
+# IDE & Editor files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
