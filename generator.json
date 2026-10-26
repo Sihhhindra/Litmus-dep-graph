@@ -1,4 +1,4 @@
 {
-  "build": "npm install --legacy-peer-deps",
-  "run": "node --import tsx src/generate.ts"
+  "build": "pip install -r requirements.txt",
+  "run": "python generate.py"
 }
