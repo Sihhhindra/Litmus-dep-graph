@@ -77,5 +77,7 @@ npm run selfcheck
 ```
 
 ### Visualizations
-- Interactive HTML explorer: [graph_visualization.html](graph_visualization.html)
+- Interactive HTML explorer: [visualisation.html](visualisation.html) / [graph_visualization.html](graph_visualization.html)
+- HTML template: [visualisation_template.html](visualisation_template.html)
 - Visual preview diagram: [graph_visualization.png](graph_visualization.png)
+
