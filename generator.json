@@ -1,4 +1,4 @@
 {
-  "build": "pip install -r requirements.txt",
+  "build": "pip install -r requirements.txt && npm install --legacy-peer-deps",
   "run": "python generate.py"
 }
